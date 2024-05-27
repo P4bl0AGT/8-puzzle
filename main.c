@@ -224,7 +224,7 @@ bool DFS(tipoEstado *estado, int limite)
     {
       continue;
     }
-    //OBTENEMOS Y AGREGAR NODOS ADYACENTES A LA PILA
+    //OBTENEMOS Y AGREGAMOS LOS NODOS ADYACENTES A LA PILA
     List *listaAdj = obtenerAdyacentes(estadoActual);
     tipoEstado *estadoAdj = list_first(listaAdj);
     while(estadoAdj != NULL)
@@ -307,7 +307,7 @@ int main(void)
   estadoInicial->clave = calcularClave(estadoInicial);
   // INICIAR ESTADO //
 
-  // BLUCLE //
+  // BUCLE //
   char opcion;
   while(1)
   {
@@ -348,7 +348,7 @@ int main(void)
     printf("PRESIONA UNA TECLA PARA CONTINUAR");
     while(getchar() != '\n');
   }
-  // BLUCLE //
+  // BUCLE //
   system("clear");
   printf("Hasta la proxima :D");
   list_clean(estadoInicial->acciones);
