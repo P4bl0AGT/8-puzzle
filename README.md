@@ -19,9 +19,8 @@ Dado que el sistema está diseñado para ser accesible y fácil de probar, recom
 * (3) Salir
 
 ## Problemas conocidos:
-* Existen algunos puzzles que la solucion esta en una profundidad muy grande por ende el programa se cae al no tener mas memoria para almacenar los nodos. por ejemplo el tablero
-|8 0 6 5 4 7 2 3 1|
-y con la busqueda en BFS el programa se cae,
+* Existen algunos puzzles que la solucion esta en una profundidad muy grande por ende el programa se cae al no tener mas memoria para almacenar los nodos, por ejemplo el tablero
+|8 0 6 5 4 7 2 3 1| con la busqueda en BFS el programa se cae,
 
 ## A mejorar:
 * Mejorar el manejo de memoria
