@@ -340,6 +340,11 @@ int main(void)
       else if(opcion == '3')
         break;
 
+
+      //OPCION INVALIDA
+      else
+        system("clear");
+
     printf("PRESIONA UNA TECLA PARA CONTINUAR");
     while(getchar() != '\n');
   }
